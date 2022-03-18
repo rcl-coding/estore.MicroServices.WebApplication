@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>1da8fe3a-8351-416e-a54b-3e61404ebeaf</UserSecretsId>
+		<Version>1.0.0</Version>
+		<Authors>Anil Ripla</Authors>
+		<Company>Ray Consulting Limited</Company>
+		<Description>The eStore Microservices web application</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="estore.MicroFrontEnd.Orders" Version="1.0.0" />
+		<PackageReference Include="estore.MicroFrontEnd.Products" Version="1.0.0" />
+		<PackageReference Include="Microsoft.Identity.Web" Version="1.23" />
+		<PackageReference Include="Microsoft.Identity.Web.UI" Version="1.23" />
+		<PackageReference Include="RCL.Azure.Storage.Core" Version="6.1.4" />
+		<PackageReference Include="RCL.WebHook.UI" Version="6.1.4" />
+	</ItemGroup>
+
+</Project>

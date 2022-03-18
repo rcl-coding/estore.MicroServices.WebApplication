@@ -1,0 +1,16 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container-fluid bg-dark text-light mb-4 shadow rounded">
+    <div class="container p-5">
+        <h1 class="display-4">Contoso Electronics</h1>
+        <hr>
+        <h5>We sell the most affordable and highest quality electronic devices.</h5>
+    </div>
+</div>
+
+<div>@await Component.InvokeAsync("ProductsList")</div>
+
